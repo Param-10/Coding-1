@@ -11,4 +11,15 @@ y=6
 number *= x + y #20*(5+6)=20*11=220
 #number = number * x + y = 20*5+6=100+6
 print(f'new number is {number}')
+number -=10
+print(f'new number is {number}')
+number /=7
+print(f'new number is {number}')
+number //=4
+print(f'new number is {number}')
+number%=10
+print(f'ne wnumber is {number}')
+number**=3
+print(f'new number is {number}')
+
 
