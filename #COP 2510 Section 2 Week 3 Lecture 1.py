@@ -90,3 +90,4 @@ print(f'The grade is {grade}')
 
 #option 2 elif statements
 #option 3a - series of if statements (need to define upper limits)
+#option 3c- series of if statements(need to define upper limits) with range function
