@@ -55,3 +55,38 @@ if score:=float(input('Enter a score:'))>80:
      print('Good job')
 else:
      print('oh no, try again')
+#session2 same week
+#conditional(ternary) form:
+print('Yay!You advance, congrats!' if score>=80 and score<=103 else 'Oh no, try again')
+
+#ternary form with walrus operator
+print('Yay! You advance, congrats' if(score2:=float(input('Enter another score:'))>=80)else'Oh no,try again.')
+
+#input validation
+while score<0 or score>103:
+ score=float(input('Invalid entry. Re-enter a score:'))
+
+if score>-80 and score<=103:
+    print('Yay! You advance, congrats!')
+else:
+   print('Oh no, try again.') 
+
+#--------handle multiple selection
+#Option1 nested if else statements
+if score>=90:
+    grade='A'
+else:
+    if score>=80:
+        grade='B'
+    else:
+        if score>=70:
+            grade='C'
+        else:
+            if score>=60:
+                grade='D'
+            else:#trailing else
+                grade='F'
+print(f'The grade is {grade}')
+
+#option 2 elif statements
+#option 3a - series of if statements (need to define upper limits)
