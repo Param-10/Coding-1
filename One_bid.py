@@ -4,11 +4,11 @@
 import random
 price=random.randint(1000,5000)
 print('Please enter your bids in dollars(no cents)')
-p=1
-while(p<5):
-    bid= int(input("Player "+str(p)+", what is your bid? "))
-    if bid<=price:
-        closest= price -bid
+p1=int(input('Player 1, what is your bid?'))
+p2=int(input('Player 2, what is your bid?'))
+p3=int(input('Player 3, what is your bid?'))
+p4=int(input('Player 4, what is your bid?'))
+
         
 
     
