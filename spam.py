@@ -6,7 +6,7 @@ n = input("How many times ?: ")
 
 print("t minus")
 
-count = 5
+count = 10
 while count != 0:
 	print(count)
 	time.sleep(1)
