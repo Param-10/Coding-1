@@ -3,7 +3,8 @@ num=random.randint(1,100)
 guess=int(input('Enter a number between 1 and 100 (inclusive): '))
 chances=1
 while(chances<10):
-    if(guess!=num and guess>num):
+
+    if(guess!=num and guess>num and guess<=100):
         guess=int(input('Too high. Enter another guess: '))
         chances+=1
     elif(guess!=num and guess<num and guess>0):
@@ -15,3 +16,8 @@ while(chances<10):
     elif(guess<0):
         guess=int(input('Really? Enter another guess between 1 to 100: '))
         chances+=1
+    elif(guess>100):
+        guess=int(input('Very funny. Enter a number between 1 and 100 (inclusive): '))
+        chances+=1
+else:
+    print(f'Sorry, the number was {num}')
