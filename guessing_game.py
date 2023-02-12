@@ -8,7 +8,7 @@
 #3rd elif statement checks if the guess is less than or equal to 0 then it asks the player to enter the next guess.
 #4th elif statement checks if the guess is above 100 then it asks the player to enter the next guess. 
 #The else statement is executed once the player has extinguished all their 10 chances and it displays the correct number.
-#-----------------------------------------------
+#---------------------------------------------------------------------------------
 import random
 num=random.randint(1,100)
 guess=int(input('Enter a number between 1 and 100 (inclusive): '))

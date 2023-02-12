@@ -3,7 +3,7 @@
 #Description: Factorial of a number - Assignment 3 - Take a nonnegative integer as an input and then check if it is positive or not. 
 #If the input is 0 then the factorial is 1 and if the input is less than 0 then the program ends. 
 #Factorial is calculated using while loop then factorial is found by multiplying it by factorial and i. i is then incremented 
-#-----------------------------------------------
+#------------------------------------------------------------------
 num = int(input('Enter a nonnegative integer: '))
 i=1
 fact=1
