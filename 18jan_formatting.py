@@ -1,11 +1,11 @@
-from math import sqrt,cell, fabs
+from math import sqrt, ceil, fabs
 import math
 
 
 num=float(input('Enter a positive number:'))
 print(f'The square root of {num} is {sqrt(num)}.')
 print(f'The absolute value of {num} is {fabs(num)}.')
-print(f'{num}rounded up is {cell(num)}.')
+print(f'{num}rounded up is {ceil(num)}.')
 
 #formatting options
 #option1: use comma and the format function
