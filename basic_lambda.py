@@ -1,3 +1,15 @@
+#Name: Paramveer Singh Bhele
+#U-Number: U82076898
+#Description: Basic operations using lambda functions - Assignment 4
+#I have used the lambda functions for all of the operations(addition, subtraction, multiplication, floating point division, integer division, modulus and exponent).
+#The compute function checks the parameters with the if conditions. It then computes the values and then returns the values obtained from the lambda functions.
+#If an operator which is not present in the conditions is entered then the user will be prompted to enter the correct operators only. 
+#In the main function, the value for the operator is taken as an input along with two numbers and the split function is used because it is specified in the question.
+#The value returned from the compute function is then stored in the result variable.
+#If the result value is not None then the expression is printed properly, otherwise if the operator was wrong then it just prints invalid operation.
+#Lastly, the main() is called.
+#-----------------------------------------------------------------------------------------------
+
 add = lambda x, y: x + y
 subtract = lambda x, y: x - y
 multiply = lambda x, y: x * y
